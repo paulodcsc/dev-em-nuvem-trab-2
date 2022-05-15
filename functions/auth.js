@@ -1,16 +1,16 @@
 function validateLogin(login, password) {
-    if (login == vitor && password == 123) {
-      return "Logado";
+    if (login == "vitor" && password == "123") {
+      return "Logado 👍";
     } else {
-      return "Conta não encontrada";
+      return "Acesso negado 🚫";
     }
   }
 
   function validateCoupon(coupon) {
-    if (coupon == AMOPETS30) {
-      return "Aproveite seu cupom!";
+    if (coupon == "AMOPETS30") {
+      return "Aproveite seu cupom 🎫";
     } else {
-      return "Cupom inválido.";
+      return "Cupom inválido 😞";
     }
   }
 
